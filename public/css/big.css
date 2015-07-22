@@ -1,0 +1,68 @@
+body {
+	font-family: "Courier New";
+	background-color: black; 
+	color:lime;
+	margin: 20px;
+}
+footer {
+	right: 0;
+	bottom: 0;
+	position: fixed;
+}
+input{
+	background-color: black;
+	border:1px solid #00BB00;
+	color:lime;
+}
+
+/* Chat */
+
+ul{
+  margin: 0px;
+  padding-left: 0px;
+  list-style-type: none;
+}
+
+.login.page{
+  text-align:center;
+}
+
+.chat.page {
+  display: none;
+}
+
+.username {
+  float: left;
+  font-weight: 700;
+  overflow: hidden;
+  padding-right: 15px;
+  text-align: right;
+  max-height:18px;
+}
+
+.inputMessage{
+  font-family: "Courier New";
+  margin-left: 20px;
+  width: 50%;
+}
+
+.usernameInput{
+  font-family: "Courier New";
+}
+
+.users{
+  float: left;
+  margin-bottom:10px;
+  
+}
+@media (max-width: 400px) {
+  .users{
+    font-size:11px;
+  }
+}
+.chatArea{
+  margin-top: 20px;
+  overflow: hidden;
+  padding-left: 20px;
+  word-wrap: break-word;
+}
