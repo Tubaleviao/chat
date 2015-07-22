@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title class="title">Tuba Chat</title>
+  <link rel="shortcut icon" href="vish.ico" />
+  <link rel="stylesheet" href="css/small.css" media="(max-device-width:500px)">
+  <link rel="stylesheet" href="css/big.css" media="(min-device-width:500px)">
+</head>
+<body>
+  <ul class="pages">
+    <li class="chat page">
+	  <ul class="users"></ul>
+	  <input class="inputMessage" placeholder="Type here..."/>
+      <div class="chatArea">
+        <ul class="messages"></ul>
+      </div>
+    </li>
+    <li class="login page">
+      <div class="form">
+        <h3>What's your nick?</h3>
+        <input class="usernameInput" type="text" maxlength="14" />
+      </div>
+    </li>
+  </ul>
+
+  <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="/client.js"></script>
+  <footer class="footer"></footer>
+</body>
+</html>
